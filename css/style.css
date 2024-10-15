@@ -1,0 +1,53 @@
+/* Estilos por defecto */
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilos de los botones */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Cambiar colores de los botones */
+#btnRojo {
+    background-color: red;
+    color: white;
+}
+
+#btnAzul {
+    background-color: blue;
+    color: white;
+}
+
+#btnVerde {
+    background-color: green;
+    color: white;
+}
+
+#btnReset {
+    background-color: black;
+    color: white;
+}
+
+/* Cambios de tema */
+body.theme-red {
+    background-color: rgb(210, 62, 62);
+    color: white;
+}
+
+body.theme-blue {
+    background-color: lightblue;
+    color: black;
+}
+
+body.theme-green {
+    background-color: lightgreen;
+    color: black;
+}
